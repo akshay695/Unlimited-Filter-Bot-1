@@ -10,54 +10,35 @@ See <i>/help</i> for commands and more details.</b>
 
 
     HELP_MSG = """
-<i>Add me as admin in your group and start filtering :)</i>
 
+Usual commands
+/start - Check Whether I'm Online 💯
+/about - About Meh! 👻
 
-<b>Basic Commands;</b>
+Filters
+/add   - Add a filter 
+/viewfilters - List of all the filters of a chat
+/del  - Delete the specified filter
+/delall - Delete the whole filters in a chat (chat owner only)
 
-/start - Check if I'm alive!
-/help - Command help
-/about - Something about me!
+Connections
+/connect  - Connect a particular chat to your PM
+/disconnect  - Disconnect from a chat
+/connections - List of all your connections
 
+Utilities
+/id - To get the chat id
+/info  or reply to any message - To get the whois info of a user
 
-<b>Filter Commands;</b>
-
-<code>/add name reply</code>  -  Add filter for name
-
-<code>/del name</code>  -  Delete filter
-
-<code>/delall</code>  -  Delete entire filters (Group Owner Only!)
-
-<code>/viewfilters</code>  -  List all filters in chat
-
-
-<b>Connection Commands;</b>
-
-<code>/connect groupid</code>  -  Connect your group to my PM. You can also simply use,
-<code>/connect</code> in groups.
-
-<code>/connections</code>  -  Manage your connections.
-
-
-<b>Extras;</b>
-
-/status  -  Shows current status of your bot (Auth User Only)
-
-/id  -  Shows ID information
-
-<code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
-
-
-<b>© @UvinduBro</b>
 """
 
 
     ABOUT_MSG = """⭕️<b>My Name : Filter Bot</b>
 
-⭕️<b>😴 Creater :</b> @UvinduBro  
+⭕️<b>😴 Creater :</b> AKshay Chand 
 
 ⭕️<b>🧷 Language :</b> <code>Python3</code>
 
-⭕️<b>🔥 Bot Updates :</b> <a href='https://t.me/UvinduBro_BOTs'> Uvindu Bro BOTs </a> 
+⭕️<b>🔥 Bot Updates :</b> <a href='https://telegra.ph/Filters-bot-Update-04-09'> Check here </a> 
 
 """
